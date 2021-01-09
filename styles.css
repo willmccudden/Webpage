@@ -1,0 +1,57 @@
+body {
+    background-color: AliceBlue;
+}
+
+.titles{
+  color:black;
+  font-size: 30px;
+  font-family:Courier New;
+  padding: 1px 10px;
+  text-align: center;
+}
+
+.text{
+  font-size: 15px;
+  font-family:Times New Roman;
+  padding: 20px, 20px;
+  display:inline-block;
+}
+
+.btn{
+  display:inline-block;
+  font-size: 14px;
+  font-family: Courier New;
+  color: black;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+.btn:hover{
+  display:inline-block;
+  font-size: 14px;
+  font-family: Courier New;
+  color: white;
+  background-color: lightblue;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 5px
+}
+
+.image{
+  display:inline-block;
+  border-style: solid;
+  border-width: 7px;
+  border-color: white;
+}
+
+#wrapper {
+  display: flex;
+}
+
+#left {
+  flex: 0 0 16%;
+}
+
+#right-index {
+  flex: 1;
+}
